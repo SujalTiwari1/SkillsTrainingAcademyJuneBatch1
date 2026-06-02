@@ -13,7 +13,7 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code # Reading the 
+      - name: Checkout Code
         uses: actions/checkout@v4
 
       - name: Setup Python
